@@ -16,6 +16,14 @@ a {
     color: #2e72a1;
 }
 
+#code-problem{
+   max-height: 300px;
+}
+
+#code-solution{
+    max-height: 300px;
+    ]
+
 #logo, .project-img {
     max-height: 300px;
 }
