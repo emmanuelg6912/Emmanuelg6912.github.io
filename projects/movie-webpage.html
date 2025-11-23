@@ -64,40 +64,85 @@
 
             <p>Me and my partner decided the name of the movie would be called The Lost Witness. We had more of a inspiration towards
             the movie mazerunner. The movie is basically an action/horror/triller in which the main character tries to escape
-            a maze with the help of other people named maze runners and they are able to escape not realizing that they have more obstacles to overcome
+            a maze with the help of other people named maze runners and they are able to escape not realizing that they have more obstacles to overcome.
             We decided to evenly split out the tasks we were doing. So my partner and I did parts of CSS I did the plan.md section and the html were also evenly done.</p>
             
             <h2>challenges that I faced:</h2>
             
             <h3>fixing the radio buttons</h3> 
             
-            <p>I was struggling with making the radio buttons so that only one could be clicked.</p>
-            At first I tried to change the <code>name=""</code> attribute to <code>name="data"</code> so that the radio buttons inside the <code>label</code> tags could only click one radio button at a time but that didnt work</p>
-            So... I checked my radio elements in my html and I realized that there was alot of spelling errors in my id attributes.</p>
-            One of my id attributes instead of being shown as <code> label for= "great" </code> it was accidentally changed to <code> label for= "grat"</code> which made only a few of the radio buttons to be selected</p>
+            <p>I was struggling with making the radio buttons so that only one could be clicked.
+            At first I tried to change the <code>name=""</code> attribute to <code>name="data"</code> so that the radio buttons inside the <code>label</code> tags could only click one radio button at a time but that didnt work
+            So... I checked my radio elements in my html and I realized that there was alot of spelling errors in my id attributes.
+            One of my id attributes instead of being shown as <code> label for= "great" </code> it was accidentally changed to <code> label for= "grat"</code> which made only a few of the radio buttons to be selected
             I quickly made sure to change all my form elements and tags so that the buttons could be clicked on seperately and it worked!</p>
             
             <h3>heres the code before:</h3>
+
             
              <img src="../img/problem-code.png">
 
             <h3>heres the code after:</h3>
             
+            
             <img src="../img/label-solution.png">
             
+
+            <h3>using margin and padding properties for images<h3>
+
+            <p>as one of the requirements I needed to include margin and padding properties in order for me and my partner to get 
+            full credit. The difference between margin and padding is that <code>margin</code> is used for the amount of space that surrounds different elements 
+            while <code>padding</code> is used to space out the distance inside the border and its element.
+            I was trying add the margin and padding properties to the images but the formation of the images werent 
+            as exact as I wanted it to be. So I kept using different values trying to find a solution to the problem but nothing worked. 
+            Then I realized something. The margin and padding can also be written in  clockwise notation. How clockwise notation works
+            is that 4 values can be used that can change the space of all four sides of margin and padding elements. So instead of margin and paddings 
+            being written in the form of one value, multiple values can be used to change multiple sides of a margin and property value 
+            So, using this knowledge I made it so that the margin and padding properties were written in four different values 
+            allowing me to center all the images and I ended up with a final result I was proud of.</p>
+
+                heres the code before:
+                
+            
+            <pre><code class="language-css">
+                .cube {
+                    margin: 80px; 
+                    padding: 5px; 
+                }
+            </code></pre>
+            
+                
+            and heres the code after:
+
+            
+            <pre><code class="language-css">
+                .cube {
+                    margin: 10px 80px 10px 80px; 
+                    padding: 5px; 
+                }
+            </code></pre>
+            
+                
             <h2>takeaways</h2>
             
             <ol>
-            <li><p>this project taught me the importance of always double checking and organizing your work before you end up submitting.
+                
+            <li><p>this project taught me the importance of always double checking and organizing your work before you end up submitting.</li>
                 If I didnt take the time to check over the spelling errors that I had made for the different id elements then I would have never been able to solve the problem within the html</p>
                 
-            <li><p>This project also taught me the importance on asking for help when needed. The process on solving this problem could</li>
-                have been solved easily if I just got help from my partner or if I got help from a teacher and because of that the process took alot more longer.</p>
+            <li><p>This project also taught me that at times its better to look for another way to solve a problem rather going through the process of trial and error.
+                Next time I could try looking over notes or getting help from my partner in order to figure out a solution rather than just continuesly putting different values
+                in my margin and padding properties hoping to see a different result.</p></li>
+                
             </ol>
 
-            <h2>Next steps</h2>
-            
-            <p>Im excited to see what other websites Im able to create in my future projects!</p>
+            <h2>Next Steps</h2>
+                
+            <p>The next thing I should try doing is organizing different parts of the website and checking for any spelling errors that would make the code out of place.
+            I also should try changing the way the images are centered and maybe adding more style to the images and borders.
+            I also feel like there should be more color to the images instead of there being only black and gray borders and text.
+            Overall, I feel proud for the final result of the website and my partner and I worked together well and met all the requirements.</p>
+                
             
             <!--EXAMPLE OF PREVIEW LINK-->
             <!--<a href="http://yourUserName.github.io/yourRepoName">Preview</a><br>-->
