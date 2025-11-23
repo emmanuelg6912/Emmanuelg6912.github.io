@@ -16,11 +16,6 @@ a {
     color: #2e72a1;
 }
 
-span {
-    color: #ff1303;
-}
-
-
 #logo, .project-img {
     max-height: 300px;
 }
