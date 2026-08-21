@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" /> 
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
     <link rel="stylesheet" href="../style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-    
+
 <body>
 
     <!-- Navbar -->
@@ -30,7 +30,7 @@
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                    <a class="nav-link" href="https://github.com/dashboard" id="github" target="_blank">Github</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html#projects">Projects</a>
@@ -44,26 +44,26 @@
         <div class="container">
 
              <h1 class="margin text-center">Movie Webpage Project</h1>
-            
+
              <h2>Context</h2>
-            
+
             <p>The instructions of this project were to create a movie webpage with my partner and using my skills of basic CSS and HTML to create a website trailer or showcase of the movie
             The purpose of this project is to make it so that we could implement our learning on basic html and css to this new project.
             This project also is important because it teaches students how to organize and plan out work before fully developing the final project as well as using teamwork to help in accomplishing a difficult task.</p>
-       
+
              <h4>This project required me to do a few steps in order for me get full credit:</h4>
-            
+
             <ol>
-                
+
             <li><p>I first needed to create a plan.md file to plan out the content of the movie, planning out the different elements, properties, selectors,  and who would do what parts for the project.<p></li>
             <li><p>Next, I needed to implement the plannings I had for my HTML and CSS and place it onto my code.</p></li>
-            <li><p>I needed to use specific css and html elements, properties and, selectors in order to get full credit. 
-            Some of the requirements were to include margin and padding properties, including one form element EX: radio buttons, 
+            <li><p>I needed to use specific css and html elements, properties and, selectors in order to get full credit.
+            Some of the requirements were to include margin and padding properties, including one form element EX: radio buttons,
             using, using 2 selectors such as id, and class selectors, and I needed to include some paragraphs and headings in my code.</p></li>
             <li><p>Another part of the rubric was that we needed to make sure that our images are creative common license and that at least on image was created by ourselves.</p></li>
             <li><p>lastly I needed to complete a form to submit all of my work and get a final grade.</p></li>
 
-                
+
             </ol>
 
             <p>Me and my partner decided the name of the movie would be called The Lost Witness. We had more of an inspiration towards
@@ -72,9 +72,9 @@
             We decided to evenly split out the tasks we were doing. So my partner and I did parts of CSS I did the plan.md section and the html were also evenly done.</p>
 
              <h2>Challenges that I faced:</h2>
-            
-             <h4>Fixing the radio buttons</h4> 
-            
+
+             <h4>Fixing the radio buttons</h4>
+
             <p>I was struggling with making the radio buttons so that only one could be clicked.
             At first I tried to change the <code>name=""</code> attribute to <code>name="data"</code> so that the radio buttons inside the <code>label</code> tags could only click one radio button at a time but that didn't work
             So... I checked my radio elements in my html and I realized that there were a lot of spelling errors in my id attributes.
@@ -85,89 +85,89 @@
 
              <pre><code class="language-html">
              &ltlabel for="grat"&gt
-             &ltp&gt&ltinput id="great" value="great" type="radio" name="data"&gtgreat&lt/p&gt 
+             &ltp&gt&ltinput id="great" value="great" type="radio" name="data"&gtgreat&lt/p&gt
              &lt/label&gt
 
              &ltlabel for="cool">&gt
-             &ltp&gt&ltinput id="cool" value="cool" type="radio" name="data"&ltcool&gt/p&gt 
+             &ltp&gt&ltinput id="cool" value="cool" type="radio" name="data"&ltcool&gt/p&gt
              &lt/label&gt
 
              &ltlabel for="bad">&gt
              &ltp&gt&ltinput id="bad" value="bad" type="radio" name="data"&gtbad&lt/p&gt
              &lt/label&gt
              </code></pre>
-            
+
              <h4>Heres the code after:</h4>
-            
+
              <pre><code class="language-html">
              &ltlabel for="great"&gt
-             &ltp&gt&ltinput id="great" value="great" type="radio" name="data"&gtgreat&lt/p&gt 
+             &ltp&gt&ltinput id="great" value="great" type="radio" name="data"&gtgreat&lt/p&gt
              &lt/label&gt
 
              &ltlabel for="cool">&gt
-             &ltp&gt&ltinput id="cool" value="cool" type="radio" name="data"&ltcool&gt/p&gt 
+             &ltp&gt&ltinput id="cool" value="cool" type="radio" name="data"&ltcool&gt/p&gt
              &lt/label&gt
 
              &ltlabel for="bad">&gt
              &ltp&gt&ltinput id="bad" value="bad" type="radio" name="data"&gtbad&lt/p&gt
              &lt/label&gt
              </code></pre>
-            
-            
+
+
             <h4>Using margin and padding properties for images</h4>
 
-            <p>as one of the requirements I needed to include margin and padding properties in order for me and my partner to get 
-            full credit. The difference between margin and padding is that <code>margin</code> is used for the amount of space that surrounds different elements 
+            <p>as one of the requirements I needed to include margin and padding properties in order for me and my partner to get
+            full credit. The difference between margin and padding is that <code>margin</code> is used for the amount of space that surrounds different elements
             while <code>padding</code> is used to space out the distance inside the border and its element.
-            I was trying add the margin and padding properties to the images but the formation of the images weren't 
-            as exact as I wanted it to be. So I kept using different values trying to find a solution to the problem but nothing worked. 
+            I was trying add the margin and padding properties to the images but the formation of the images weren't
+            as exact as I wanted it to be. So I kept using different values trying to find a solution to the problem but nothing worked.
             Then I realized something. The margin and padding can also be written in  clockwise notation. How clockwise notation works
-            is that 4 values can be used that can change the space of all four sides of margin and padding elements. So instead of margin and paddings 
-            being written in the form of one value, multiple values can be used to change multiple sides of a margin and property value 
-            So, using this knowledge I made it so that the margin and padding properties were written in four different values 
+            is that 4 values can be used that can change the space of all four sides of margin and padding elements. So instead of margin and paddings
+            being written in the form of one value, multiple values can be used to change multiple sides of a margin and property value
+            So, using this knowledge I made it so that the margin and padding properties were written in four different values
             allowing me to center all the images and I ended up with a final result I was proud of.</p>
 
             <h4>Heres the code before:</h4>
-                
+
             <pre><code class="language-css">
                 .cube {
-                    margin: 80px; 
-                    padding: 5px; 
+                    margin: 80px;
+                    padding: 5px;
                 }
             </code></pre>
-            
+
             <h4>And heres the code after:</h4>
 
             <pre><code class="language-css">
                 .cube {
-                    margin: 10px 80px 10px 80px; 
-                    padding: 5px; 
+                    margin: 10px 80px 10px 80px;
+                    padding: 5px;
                 }
             </code></pre>
-            
-                
+
+
             <h2>takeaways</h2>
-            
+
             <ol>
-                
+
              <li><p>this project taught me the importance of always double checking and organizing your work before you end up submitting.
              If I didn't take the time to check over the spelling errors that I had made for the different id elements then I would have never been able to solve the problem within the html.</p></li>
-                
+
             <li><p>This project also taught me that at times it's better to look for another way to solve a problem rather than going through the process of trial and error.
                 Next time I could try looking over notes or getting help from my partner in order to figure out a solution rather than just continuously putting different values
                 in my margin and padding properties hoping to see a different result.</p></li>
-       
+
             </ol>
 
             <h2>Next Steps</h2>
-                
+
             <p>The next thing I should try doing is organizing different parts of the website and checking for any spelling errors that would make the code out of place.
             I also should try changing the way the images are centered and maybe adding more style to the images and borders.
             I also feel like there should be more color to the images instead of there being only black and gray borders and text.
             Overall, I feel proud for the final result of the website and my partner and I worked together well and met all the requirements.</p>
 
             <a href="https://app.pickcode.io/share/cmhoy8jkm7nrk11jyt6y9rmtw">Preview of the project</a><br>
-            
+
             <a href="https://app.pickcode.io/project/cmhoy8jkm7nrk11jyt6y9rmtw">Code of the project</a><br>
 
             <!--EXAMPLE OF PREVIEW LINK-->
@@ -193,7 +193,7 @@
 
             <!-- Example code snippet below (uncomment to use) -->
             <!-- https://github.com/hstatsep/other/blob/main/prism/prism.md#how-to-format-your-code-snippets -->
-            
+
             <!--
             <pre><code class="language-css">
                 h1 {
