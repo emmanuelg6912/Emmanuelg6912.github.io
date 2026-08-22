@@ -44,6 +44,8 @@ a {
     color: #ffffff;
 }
 
+
+
 .card {
     color: black;
     text-align: left;
@@ -61,6 +63,14 @@ a {
 .bg-4 {
     background-color: #E8FCF3; /* white */
     color: #fff;
+}
+
+.bg-5{
+    background-color: #eff9f7;
+}
+
+strong {
+    color:
 }
 
 .container-fluid {
